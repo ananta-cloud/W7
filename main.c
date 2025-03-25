@@ -4,8 +4,8 @@
 #include "stack/stack.h"
 
 void decimalToBinary(int decimal) {
-    Node* linkedList = NULL; // Linked List
-    Stack* stack = createStack(64); // Stack dengan kapasitas 32
+    Node* linkedList = NULL; 
+    Stack* stack = createStack(64); 
     
     // Konversi Desimal ke Biner menggunakan stack
     while (decimal > 0) {
