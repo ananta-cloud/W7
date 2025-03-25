@@ -32,10 +32,8 @@ int main() {
     int decimalNumber;
     printf("Masukkan bilangan desimal: ");
     scanf("%d", &decimalNumber);
-    
     decimalToBinary(decimalNumber);
     getchar();
     getchar();
-
     return 0;
 }

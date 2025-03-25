@@ -12,4 +12,4 @@ void push(Stack* stack, int value);
 int pop(Stack* stack);
 int isEmpty(Stack* stack);
 
-#endif // STACK_H
+#endif 
